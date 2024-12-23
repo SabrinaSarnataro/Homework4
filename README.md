@@ -25,12 +25,16 @@ If you want to test the point 4 instead (to test both the navigation and detecti
 In a third terminal write:
 
     $ ros2 run rl_fra2mo_description follow_waypoints.py
+
 # Note: Depending on the point of the homework you want to test, select the corresponding number from the terminal.
 
 If you want to monitor the robot's movement in RViz, particularly the mapping with the specific configuration required by the task, you can use the following command:
 
     $ ros2 launch rl_fra2mo_description display_fra2mo.launch.py
 
+If you want to test the point 4 c), in a fourth terminal write:
+
+    $ ros2 topic echo /tf_static
 
 If you want to view the image captured by the camera, execute the following command in another terminal:
 
