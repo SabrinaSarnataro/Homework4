@@ -35,5 +35,11 @@ If you want to monitor the robot's movement in RViz, particularly the mapping wi
 If you want to view the image captured by the camera, execute the following command in another terminal:
 
      $ ros2 run rqt_image_view rqt_image_view
-     
-You can check the behaviour of the robot by visiting the following link: https://youtu.be/g0aNKmdAj38?si=w9UMfGCH_CoLTM0G
+
+To see the real image, select the /videocamera topic, to see the image with the detection of the ArUco tag instead, select the aruco_single/result topic.
+
+You can check the behaviour of the robot by visiting the following link:
+
+https://youtu.be/g0aNKmdAj38?si=w9UMfGCH_CoLTM0G
+
+The videos have been sped up to allow for faster and easier review.
